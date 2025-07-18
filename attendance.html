@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>student Dashboard</title>
+  <link rel="stylesheet" href="attendance.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body><header>
+    <a href="#home" class="logo-link">
+      <div class="logo-circle">
+        <img src="logo2.jpg" alt="Logo" />
+      </div>
+    </a>
+    
+ <ul class="nav">
+      <li><a href="home.html" class="active">Home</a></li>
+      <li><a href="attendance.html"> Attendance</a></li>
+      <li><a href="timetable.html">Time Table</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header><!-- Attendance Section -->
+  <section class="attendance-section" id="attendance">
+    <h1 class="section-title">Attendance</h1>
+
+    <div class="dashboard-grid-top">
+      <div class="box">
+        <h2>Total Attendance</h2>
+        <p>Today: <strong>135 / 140</strong></p>
+      </div>
+
+      <div class="box student-box">
+        <img src="student.jpg" alt="Student" />
+        <h3>John Doe</h3>
+        <p>Roll No: 12</p>
+      </div>
+    </div>
+
+    <!-- All Subject Bars in One Box -->
+    <div class="box full-width-box">
+      <h2>Subject-wise Attendance</h2>
+      <div class="horizontal-bars">
+
+        <!-- Subject Block -->
+        <div class="subject-group">
+          <h3>OSY</h3>
+          <div class="subject-bar-group">
+            <div class="subject-row">
+              <label>Theory</label>
+              <div class="bar-container">
+                <div class="bar present" style="width: 90%;">90%</div>
+                <div class="bar absent" style="width: 10%;">10%</div>
+              </div>
+            </div>
+            <div class="subject-row">
+              <label>Practical</label>
+              <div class="bar-container">
+                <div class="bar present" style="width: 85%;">85%</div>
+                <div class="bar absent" style="width: 15%;">15%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subject-group">
+          <h3>SE</h3>
+          <div class="subject-bar-group">
+            <div class="subject-row">
+              <label>Theory</label>
+              <div class="bar-container">
+                <div class="bar present" style="width: 75%;">75%</div>
+                <div class="bar absent" style="width: 25%;">25%</div>
+              </div>
+            </div>
+            <div class="subject-row">
+              <label>Practical</label>
+              <div class="bar-container">
+                <div class="bar present" style="width: 80%;">80%</div>
+                <div class="bar absent" style="width: 20%;">20%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subject-group">
+          <h3>SPI</h3>
+          <div class="subject-bar-group">
+            <div class="subject-row">
+              <label>Theory</label>
+              <div class="bar-container">
+                <div class="bar present" style="width: 95%;">95%</div>
+                <div class="bar absent" style="width: 5%;">5%</div>
+              </div>
+            </div>
+            <div class="subject-row">
+              <label>Practical</label>
+              <div class="bar-container">
+                <div class="bar present" style="width: 88%;">88%</div>
+                <div class="bar absent" style="width: 12%;">12%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subject-group">
+          <h3>CCP</h3>
+          <div class="subject-bar-group">
+            <div class="subject-row">
+              <label>Theory</label>
+              <div class="bar-container">
+                <div class="bar present" style="width: 82%;">82%</div>
+                <div class="bar absent" style="width: 18%;">18%</div>
+              </div>
+            </div>
+            <div class="subject-row">
+              <label>Practical</label>
+              <div class="bar-container">
+                <div class="bar present" style="width: 76%;">76%</div>
+                <div class="bar absent" style="width: 24%;">24%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</body>
+</html>
